@@ -1,5 +1,7 @@
+// Declara a variável power como false - energia desligada
 var power = false;
 
+// Função da Chave Geral
 function general(on) {
     if (on == 0) {
         power = false;
@@ -24,6 +26,7 @@ function general(on) {
     document.getElementById("redLight").src = powerlight;
 }
 
+// Função de Acionamento do Motor
 function controller(start) {
     if (power == true) {
         if (start == 0) {
