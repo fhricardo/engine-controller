@@ -1,3 +1,11 @@
+/******************************************************************************
+JavaScript para Acionamento de Motor JS
+Professor Flávio Ricardo
+Abril de 2023
+Curso de Webdesign Front-end | Escola SENAI "Professor Vicente Amato"
+Jandira/SP
+******************************************************************************/
+
 // Declara a variável power como false - energia desligada
 var power = false;
 

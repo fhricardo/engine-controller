@@ -61,6 +61,11 @@ main {
     align-items: center;
 }
 
+.motor img {
+    width: 400px;
+    height: 400px;
+}
+
 .motor-on {
     animation: motor;
     animation-duration: 1s;
